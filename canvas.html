@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet"  href="canvascss.css">
+<!--script type="text/javascript" src="Concurrent.Thread.js"></script-->
+<script type="text/javascript" src="canvasjs.js"></script>
+</head>
+<body onLoad="dibujar();" onkeydown="mover(event);" bgcolor="#666666">
+<center>
+<h1>RAPID MOUSE </h1><br>
+<table width="70%" height="70%">
+    <tr id="tabla">
+        <td class="tddos" width="40%" height="70%">
+            <canvas id="pantalla1" width="340" height="520">
+            Su navegador no permite utilizar canvas.
+            </canvas>
+        </td>
+        <td  class="tddos"  width="50%"  height="70%">
+            <center>
+            <div class="uno" id="score">Score: 0</div><br>
+            <div class="uno" id="time">Time: 00:00:00</div><br>
+            <div class="uno" id="vidas"><img height="28" src="raton.png"><img height="28" src="raton.png"></div><br>
+            <div id="botones2"></div><br>
+            <div id="botones"></div>
+            </center>
+        </td>
+    </tr>
+</table>
+</center>
+</body>
+</html>

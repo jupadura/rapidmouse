@@ -1,0 +1,48 @@
+canvas { 
+    border: 7px solid #aaaaaa; 
+    }
+    
+h1 {
+     padding:0px 0px 0px;
+     font-family:ubuntu,sans;
+     color: #FFFFFF;  
+     } 
+
+h3 {
+     padding:0px 0px 0px;
+     font-family:ubuntu,sans;
+     color: #FFCCCC;  
+}
+     
+div.uno {
+border:3px dashed #aaaaaa;
+background-color:#cccccc;
+height:35;
+width:300;
+}
+
+td.uno {
+border:3px dashed #aaaaaa;
+background-color:#cccccc;
+font-family: monospace;
+font-size:7.5;
+vertical-align:top;
+}
+
+td.tddos{
+vertical-align:top;
+font-family:ubuntu,sans;
+font-size:20px;
+}
+
+button{
+border:3px dashed #aaaaaa;
+background-color:#cccccc;
+font-family:ubuntu,sans;
+font-size:18px;
+}
+
+button:hover{
+border:3px dashed #ff9999;
+background-color:#ffcccc;
+}
